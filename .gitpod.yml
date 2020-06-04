@@ -4,13 +4,6 @@ image:
 ports:
 - port: 8080
   onOpen: open-preview
-github:
-  prebuilds:
-    master: true
-    branches: false
-    pullRequests: true
-    addCheck: true
-    addComment: false
 tasks:
 - name: Terminal
   command: >
